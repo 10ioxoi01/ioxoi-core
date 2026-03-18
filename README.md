@@ -63,3 +63,24 @@ Esto genera:
 - repetición de errores  
 
 IOXOI nace como una respuesta a esto
+
+
+}
+## 🚀 Looking for collaborators
+
+IOXOI is starting.
+
+We already have:
+- a working simulation
+- a clear vision
+- a system architecture
+
+We are looking for:
+- developers
+- designers
+- thinkers
+
+Goal:
+Build a system where people can understand their body, mind and decisions through simulation.
+
+If this resonates with you, join
