@@ -45,3 +45,21 @@ No necesitas ser experto. Solo querer aportar.
 ## 🚀 Estado
 
 Inicio del proyecto
+
+
+}
+## ❗ Problema actual
+
+Las personas viven sin comprender:
+
+- su propio cuerpo  
+- sus decisiones  
+- las consecuencias de sus acciones  
+
+Esto genera:
+
+- estrés  
+- desbalance  
+- repetición de errores  
+
+IOXOI nace como una respuesta a esto
