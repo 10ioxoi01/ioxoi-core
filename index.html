@@ -1,0 +1,68 @@
+i008"}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IOXOI - Energía</title>
+</head>
+<body>
+
+<h1>IOXOI — Energía diaria</h1>
+
+<label>Sueño (horas):</label>
+<input type="number" id="sleep"><br><br>
+
+<label>Alimentación:</label>
+<select id="food">
+  <option value="high">Alta</option>
+  <option value="medium">Media</option>
+  <option value="low">Baja</option>
+</select><br><br>
+
+<label>Estrés:</label>
+<select id="stress">
+  <option value="low">Bajo</option>
+  <option value="medium">Medio</option>
+  <option value="high">Alto</option>
+</select><br><br>
+
+<label>Actividad:</label>
+<select id="activity">
+  <option value="high">Alta</option>
+  <option value="medium">Media</option>
+  <option value="low">Baja</option>
+</select><br><br>
+
+<button onclick="calculate()">Calcular</button>
+
+<h2 id="result"></h2>
+
+<script>
+function calculate() {
+  let energy = 50;
+
+  let sleep = document.getElementById("sleep").value;
+  let food = document.getElementById("food").value;
+  let stress = document.getElementById("stress").value;
+  let activity = document.getElementById("activity").value;
+
+  if (sleep >= 8) energy += 20;
+  else if (sleep >= 6) energy += 10;
+  else energy -= 20;
+
+  if (food === "high") energy += 10;
+  else if (food === "medium") energy += 5;
+  else energy -= 10;
+
+  if (stress === "high") energy -= 15;
+  else if (stress === "medium") energy -= 5;
+  else energy += 5;
+
+  if (activity === "high") energy += 10;
+  else if (activity === "medium") energy += 5;
+
+  document.getElementById("result").innerText = "Energía: " + energy + "%";
+}
+</script>
+
+</body>
+<
