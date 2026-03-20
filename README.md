@@ -84,3 +84,7 @@ Goal:
 Build a system where people can understand their body, mind and decisions through simulation.
 
 If this resonates with you, join
+
+qué es IOXOI
+para qué sirve
+cómo funciona (simple)
